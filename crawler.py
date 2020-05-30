@@ -11,7 +11,7 @@ print('Enter the number of ordinances:')
 x = input()
 print('Enter the total number of section:')
 number = input()
-link = "http://www.hklii.org/cgi-bin/sinodisp/"+ lang +"/hk/legis/ord/" + x +"/s'
+link = "http://www.hklii.org/cgi-bin/sinodisp/"+ lang +"/hk/legis/ord/" + x + "/s"
 browser = webdriver.Chrome()
 for index in range(1,number):
     url = link + str(index) + ".html"
